@@ -1,0 +1,15 @@
+:root {
+  --dark-blue: #191919;
+  --dark-blue-bg: #151515;
+  --dark-blue-accent: #b9b9b9;
+  --dark-blue-hover: hsla(0,0%,93.3%,0.0784313725490196);
+  --dark-blue-border: hsla(0,0%,100%,0.1607843137254902);
+  --dark-blue-active: rgba(129,140,239,0.2);
+  --avax-red: #e84143;
+  --arbitrum-blue: #28a0f0;
+  --border-radius-sm: 0.4rem;
+  --error-red: #fa3c58;
+}
+.App{
+  overflow-x: hidden;
+}

@@ -1,0 +1,215 @@
+
+.earn{
+    width: 100vw;
+    box-sizing: border-box;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5vh;
+    background-color: var(--dark-blue-bg);
+}
+.earnWrapper{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+    /* background-color: red; */
+    /* border-bottom: 1px solid var(--dark-blue-border); */
+}
+.earnHeadingDiv{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    color: var(--dark-blue-accent);
+    font-size: large;
+    font-weight: 500;
+    /* background-color: #28a0f0; */
+}
+.earnHeading1{
+    font-size: xx-large;
+    color: white;
+    font-weight: 600;
+}
+.tableDiv1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+}
+.table1{
+    width: 49%;
+    height: 70vh;
+    border: 1px solid var(--dark-blue-border);
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #28a0f0; */
+    font-size: medium;
+    font-weight: 500;
+}
+.upper{
+    width: 100%;
+    height: 10%;
+    /* background-color:red; */
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    padding-left: 2%;
+    box-sizing: border-box;
+    border-bottom: 1px solid var(--dark-blue-border);
+}
+
+.lower{
+    width: 100%;
+    height: 15%;
+    padding-left: 2%;
+    box-sizing: border-box;
+    /* background-color:aqua; */
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 5%;
+    border-top: 1px solid var(--dark-blue-border);
+}
+.middle{
+    width: 100%;
+    height: 75%;
+    /* background-color:yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.middle1{
+    width: 100%;
+    height: 31%;
+    /* background-color: #28a0f0; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    box-sizing: border-box;
+}
+.middle1TextDiv{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: medium;
+}
+.textColor{
+    color: var(--dark-blue-accent);
+}
+.middle2{
+    width: 100%;
+    height: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    box-sizing: border-box;
+    border-top: 1px solid var(--dark-blue-border);
+    border-bottom: 1px solid var(--dark-blue-border);
+    /* background-color: red; */
+}
+.middle2TextDiv{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: medium;
+}
+.middle3{
+    width: 100%;
+    height: 21%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    box-sizing: border-box;
+    /* background-color: green; */
+}
+.middle3TextDiv{
+    width: 100%;
+    height: 45%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: medium;
+}
+.middle1TextDiv2{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: medium;
+    padding-left: 2%;
+    padding-right: 2%;
+    box-sizing: border-box;
+}
+#aa{
+    justify-content: start;
+    align-items: start;
+}
+#earnHeadingDiv2{
+    height: 20vh;
+}
+#table3{
+    height: 45vh;
+}
+#upper3{
+    height: 17%;
+}
+#lower3{
+    height: 22%;
+}
+#middle3{
+    
+    height: 61%;
+}
+#ab{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+@media  only screen and (max-width: 900px){
+    .table1{
+        width: 100%;
+        margin-bottom: 2vh;
+    }
+    .tableDiv1{
+        flex-direction: column;
+    }
+}

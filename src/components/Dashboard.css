@@ -1,0 +1,168 @@
+
+.dashboard{
+    width: 100vw;
+    box-sizing: border-box;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5vh;
+    padding-top: 5vh;
+    background-color: var(--dark-blue-bg);
+}
+.dasboardWrapper{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+    /* background-color: red; */
+    /* border-bottom: 1px solid var(--dark-blue-border); */
+}
+
+
+#table4{
+    height: 35vh;
+}
+#upper4{
+    height: 20%;
+}
+/* #lower3{
+    height: 22%;
+} */
+#middle4{
+    
+    height: 70%;
+}
+#dash1{
+    height: 20%;
+    padding-left: 2%;
+    padding-right: 2%;
+    box-sizing: border-box;
+    /* background-color: #28a0f0; */
+}
+#dash2{
+    padding-left: 2%;
+    padding-right: 2%;
+    box-sizing: border-box;
+}
+#dash4{
+    height: 90%;
+    /* background-color: #e84143; */
+}
+#dash3{
+    width: 15%;
+    height: 80%;
+}
+
+.dashTable1{
+    width: 49%;
+    height: 45vh;
+    border: 1px solid var(--dark-blue-border);
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.dashTablemain{
+   width: 60%;
+   height: 100%;
+   /* background-color: #28a0f0; */
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+#upper5{
+   width: 100%;
+   height: 25%;    
+   /* background-color: yellow; */
+}
+#middle5{
+    width: 100%;
+    height: 70%;
+    /* background-color: green; */
+}
+.dashTablePercentage{
+    width: 40%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* .*/
+  
+  .single-chart {
+    width: 95%;
+    justify-content: space-around ;
+  }
+  
+  .circular-chart {
+    display: block;
+    margin: 10px auto;
+    max-width: 85%;
+    max-height: 250px;
+  }
+  
+  .circle-bg {
+    fill: none;
+    stroke: rgb(61, 1, 100);
+    
+    stroke-width: 2.6;
+  }
+  
+  .circle {
+    fill: none;
+    stroke-width: 2.6;
+    stroke-linecap: round;
+    animation: progress 1s ease-out forwards;
+  }
+  .circle-bg:hover{
+    box-shadow: 7px 7px 7px rgb(114, 52, 156);
+    stroke: rgb(136, 9, 221);
+  }
+  @keyframes progress {
+    0% {
+      stroke-dasharray: 0 100;
+    }
+  }
+  
+  /**/
+  
+  .circular-chart.blue .circle {
+    stroke: #0489e9;
+    
+  }
+  .circular-chart.blue .circle:hover {
+    stroke: #59aae3;
+    box-shadow: 7px 7px 7px #0489e9;
+  }
+  
+  
+  .percentage {
+    fill: #666;
+    
+    font-size: 4px;
+    font-weight: 500;
+    text-anchor: middle;
+  }
+
+
+  @media  only screen and (max-width: 900px){
+    #dash5{
+        width: 100%;
+        margin-bottom: 2vh;
+        
+    }
+    
+}

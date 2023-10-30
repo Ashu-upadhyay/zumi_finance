@@ -1,0 +1,301 @@
+
+.homeDiv{
+    width: 100vw;
+    box-sizing: border-box;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark-blue-bg);
+}
+.homeInnerDiv{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    /* border-bottom: 1px solid var(--dark-blue-border); */
+}
+.homeFirstContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+}
+.homeTextDiv{
+    width: 100%;
+    height: 55vh;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    /* gap: 50%; */
+}
+.homeText1{
+    font-size: 60px;
+    /* line-height: 5%; */
+    color: white;
+    font-weight: 500;
+    /* background-color: red; */
+}
+.homeText2{
+    margin-top: 2%;
+    font-size: x-large;
+    color: white;
+
+}
+.homeButton {
+    margin-top: 2%;
+    background-color: #45b38c; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+  }
+.readButton {
+    margin-top: 2%;
+    background-color: var(--dark-blue-bg); /* Green */
+    border: 1px solid var(--dark-blue-border);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .homeButton:hover{
+    background-color:rgba(69, 179, 140,0.5);
+  }
+  .readButton:hover{
+    background-color:rgba(255, 255,255,0.1);
+  }
+  .data{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    width: 100%;
+    height: auto;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    flex-wrap: wrap;
+    padding: 10px 0;
+    gap: 20px;
+  }
+  .data1{
+    width: 30%;
+    border: 1px solid var(--dark-blue-border);
+    border-radius: 5px;
+    background-color: var(--dark-blue-bg);
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    box-sizing: border-box;
+    padding-left: 2%;
+    box-sizing: border-box;
+    align-items: center;
+    color: white;
+    gap: 5%;
+    box-shadow: rgba(7, 7, 7, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  }
+  .dataImg{
+    width: 20%;
+    height: 40%;
+  }
+  .dataText1{
+    font-size: large;
+    font-weight: 500;
+    color: var(--dark-blue-accent);
+  }
+  .dataText2{
+    font-size: xx-large;
+    font-weight: 500;
+  }
+  .line{
+    border-bottom: 1px solid var(--dark-blue-border);
+    width: 100vw;
+    height: 1px;
+  }
+
+.homeSecondContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+}
+.dataDiv{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    /* background-color: #28a0f0; */
+}
+.data2{
+    width: 100%;
+    height: 40vh;
+    /* background-color: yellow; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.data2Inner1{
+    width: 100%;
+    height:30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:start;
+    color:white;
+    font-size: x-large;
+    font-weight: 600;
+    /* background-color: #fa3c58; */
+
+}
+.dataImg2{
+    width: 15%;
+    height: 50%;
+}
+.data2Inner2{
+    width: 100%;
+    height: 60%;
+    padding-left: 2%;
+    font-size: larger;
+    box-sizing: border-box;
+    color: var(--dark-blue-accent);
+    /* background-color: aqua; */
+}
+.secondContainerText{
+    width: 100%;
+    height: 13vh;
+    /* background-color: #28a0f0; */
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    color: white;
+    font-size: xx-large;
+    font-weight: 700;
+}
+.dataDiv3{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4%;
+}
+.data3{
+    border: 1px solid var(--dark-blue-border);
+    border-radius: 5px;
+    padding: 5px 8px;
+    box-sizing: border-box;
+    width: 48%;
+    height: 37vh;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(7, 7, 7, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    /* background-color: #28a0f0; */
+    gap: 4%;
+}
+.data3inner1{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    font-size: x-large;
+    font-weight: 600;
+    color: white;
+    gap: 2%;
+    /* background-color: #e84143; */
+}
+.data3innerImg{
+    width: 10%;
+    height: 90%;
+}
+.data3inner2{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    font-size: larger;
+    color: white;
+    font-weight: 500;
+}
+.data3inner3{
+    width: 100%;
+    height: 15%;
+    font-size: large;
+    display: flex;
+    font-weight: 500;
+    justify-content: start;
+    align-items: center;
+    color: var(--dark-blue-accent);
+}
+
+@media  only screen and (max-width: 600px){
+    .data1{
+        width: 100%;
+    }
+   
+    .data3{
+        width: 100%;
+        height: 40vh;
+    }
+    .dataDiv3{
+        flex-direction: column;
+    }
+    .dataDiv{
+        flex-direction: column;
+    }
+    .homeText1{
+        font-size: x-large;
+    }
+    .homeText2{
+        font-size: medium;
+    }
+    #launcButton{
+        font-size: small;
+        padding: 2px 9px;
+    }
+    /* .homeButton{
+        font-size: 7px;
+        background-color: red;
+        padding: 1px 2px;
+    } */
+}
